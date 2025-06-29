@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { getSortedPostsData } from '../lib/articles'; // Assuming this path is correct
+import { getSortedPostsData } from '../lib/articles';
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -39,7 +39,7 @@ export default function Home({ allPostsData }) {
 
         <div className="relative z-10 max-w-3xl mx-auto">
           <h2 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold mb-6 leading-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-300 drop-shadow-lg">
-            Hey, I'm Gyan 👋
+            Hey, I&apos;m Gyan 👋
           </h2>
           <div className="flex flex-wrap justify-center gap-6">
             <a href="#projects" className="bg-blue-600 text-white px-8 py-3 rounded-full shadow-lg hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 font-semibold text-lg">
@@ -57,8 +57,8 @@ export default function Home({ allPostsData }) {
         <div className="container mx-auto max-w-4xl">
           <h2 className="text-4xl font-bold mb-8 text-blue-400">About Me</h2>
           <p className="text-xl text-gray-300 leading-relaxed mb-4">
-            I'm a passionate developer interested in building scalable, meaningful technology.
-            With a background in C++, Java and Python, I'm now focused on creating modern
+            I&apos;m a passionate developer interested in building scalable, meaningful technology.
+            With a background in C++, Java and Python, I&apos;m now focused on creating modern
             web apps and upskilling toward backend, AI, and Cloud engineering.
           </p>
           <p className="text-xl text-gray-300 leading-relaxed">
